@@ -1,0 +1,22 @@
+.containerA
+{
+    width: 74%;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    overflow-y: scroll;
+    height: 130px;
+}
+#map-canvas
+{
+    height: 65%;
+    width: 74%;
+    position: absolute;
+    left: 320px;
+    top: 350px;
+}
+/*#ManageBtn
+{
+    width: 130px;
+    color: #5bc0de;
+}*/

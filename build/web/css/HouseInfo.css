@@ -1,0 +1,94 @@
+.form_upload
+{
+    position: absolute;
+    right: 140px;
+    top: 200px;
+    width: 460px;
+}
+.infoContainer,.bodyContainer
+{
+    margin-left: 60px;
+}
+#message
+{
+    position: absolute;
+    left: 750px;
+    color:#003399;
+    top: 430px;
+}
+#descrForm,#photForm,#saveBtn
+{
+    height: 44px;
+    margin-bottom: 15px;
+}
+#saveBtn
+{
+    margin-top: 50px;
+}
+#HouseImages
+{
+    width: 250px;
+    height: 250px;
+
+}
+#checkToDelete
+{
+    position: relative;
+    bottom: 105px;
+    right: 27px;
+}
+.pictureContainer
+{
+    position: absolute;
+    right: 80px;
+    top:550px;
+    height:600px;
+    width: 600px;
+}
+#PictureDeleteForm
+{
+    overflow-y: scroll;
+    height:400px;
+    width: 580px;
+    margin-left: 80px;
+}
+.left
+{
+    float: left;
+}
+right
+{
+    float: right; 
+}
+#DeleteLeg
+{
+    margin-left:80px;
+}
+#DeleteButton
+{
+    margin-top: 42px;
+    margin-left: 70px;
+    width: 520px;
+}
+#responseTextGreen,#responseTextRed
+{
+    position: absolute;
+    top: 206px;
+    font-family: fantasy;
+    font-size: 20px;
+    left: 310px;
+}
+#responseTextRed
+{
+    color: red;
+}
+#responseTextGreen
+{
+    color: green;
+}
+#deleteHouse
+{
+    position: absolute;
+    top:15px;
+    right:20px;
+}

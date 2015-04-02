@@ -1,0 +1,62 @@
+.bodyContainer
+{
+    margin-left: 60px;
+}
+body
+{
+    background-color:#e0e0e0;
+}
+
+#euroGlyph
+{
+    font-size: 24px;
+    margin-left: 5px;
+}
+#Pageheader
+{
+    color:#105a97;
+}
+#description
+{
+ margin-left: 40px;
+    width: 80%;
+    font-size: 17px;
+}
+#Houseinfo
+{
+    margin-left: 40px;
+}
+.infoContainer
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 300px;
+    position: relative;
+    text-align: left;
+    right: 280px;
+   background-color: white; 
+   width: 36%;
+}
+.pictureContainer
+{
+   position:relative;
+   bottom:550px;
+   left: 500px;
+   width: 60%;
+}
+#contactButton
+{
+    position: absolute;
+    top:10px;
+    right: 20px;;
+}
+#PhotoDexription
+{
+     background-color: white; 
+     position: relative;
+     bottom: 0px;
+}
+#HouseImages
+{
+    max-height:  520px;
+}

@@ -1,0 +1,37 @@
+
+#hhr
+{
+    margin-right: 50px;
+}
+.bodyContainer
+{
+    min-width: 700px;
+    min-height: 600px;
+}
+.leftContent
+{
+    float:left;
+}
+
+.hr3
+{
+    width: 410px;
+/*    margin-top: -17px;*/
+}
+#sawbutton
+{
+    position: absolute;
+}
+.rightContent
+{
+    float: right;
+    border-left-color: #cccccc;
+    border-left-width: 1px;
+    padding-left: 15px;
+    border-left-style: solid;
+    margin-right: 170px;
+}
+.narrowP
+{
+    width: 415px;
+}

@@ -1,0 +1,76 @@
+.col-sm-4
+{
+    margin-right: -130px;
+}
+.navbar
+{
+    margin-right: -100px;
+    width:210px;
+    text-align: center;
+}
+.navbar-header
+{
+    position: relative;
+    top:5px;
+    left:22px;
+}
+.Atitle
+{
+    position: relative;
+    top:10px;
+    left:15px;
+}
+.seperator1
+{
+    position:relative;
+    bottom: 15px;
+    margin-bottom: 5px;
+}
+#logoutButton
+{
+    position: absolute;
+    top:15px;
+    right:20px;
+}
+#navbutton
+{
+    width:175px;
+    height: 40px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+li:nth-child(5)
+{
+    margin-bottom: 10px;
+}
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+.hr2
+{
+    position: relative;
+    top:50px;
+}
+#containerNav
+{
+    position:relative;
+    top: 30px;
+}
+
+#hhr
+{
+    width: 1050px;
+}
+#NavTop
+{
+    position: fixed;
+    bottom:10px;
+    left:30px;
+    font-size: 25px;
+}
+#navbutton1
+{
+    position: absolute;
+    top:15px;
+    right:120px;
+}

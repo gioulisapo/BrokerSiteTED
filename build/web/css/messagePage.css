@@ -1,0 +1,32 @@
+.container
+{
+    position: absolute;
+    top: 205px;
+    left: 290px;
+    width: 650px;;
+    height:600px;
+    
+}
+#message_body
+{
+   overflow-y: scroll;
+}
+#InputSubject,#OutputFrom,#InputMessage,#OutputSubject,#InputMail,#OutputMessage
+{
+    width: 650px;
+}
+#InputMessage,#OutputMessage
+{
+    overflow-y: scroll;
+    height:200px;
+}
+.email
+{
+    position: relative;
+    float: right;
+    left: 50px;
+}
+#replyButton,.email
+{
+    width: 120px;
+}

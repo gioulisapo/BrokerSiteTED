@@ -1,0 +1,13 @@
+.formcontainer
+{
+  margin: auto;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#InputCountry
+{
+    width: 100%;
+    
+}

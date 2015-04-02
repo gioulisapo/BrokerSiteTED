@@ -1,0 +1,17 @@
+
+#DeleteButton
+{
+    position:absolute;
+    bottom: 95px;
+    right: 50px;
+    width: 220px;
+}
+.container
+{
+        width: 1050px;
+    position: absolute;
+    top: 115px;
+    left: 270px;
+    overflow-y: scroll;
+    height: 380px;
+}

@@ -1,0 +1,48 @@
+.bodyContainer
+{
+    margin-left: 60px;
+}
+body
+{
+    background-color:#e0e0e0;
+}
+
+#Pageheader
+{
+    color:#105a97;
+}
+
+.infoContainer
+{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    margin-left: 300px;
+    position: relative;
+    text-align: left;
+    right: 40px;
+   background-color: white; 
+   width: 53%;
+}
+#contactButton
+{
+    position: absolute;
+    bottom:10px;
+    right: 22px;
+}
+
+.ContactForm
+{
+    margin-left: 20px;
+}
+
+#InputSubject,#InputEmail
+{
+    min-width: 650px;
+    font-size: 16px;
+}
+#InputMessage
+{
+    min-width: 650px;
+    min-height: 330px;
+    font-size: 16px;
+}

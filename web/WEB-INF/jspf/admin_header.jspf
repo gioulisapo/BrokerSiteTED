@@ -1,0 +1,54 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <link href="css/admin_header.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    </head>
+    <body>
+         <%if (session.getAttribute("username") == null || session.getAttribute("Administrator") == null ||
+                 (Boolean)session.getAttribute("Administrator") == false) //Session control Extra
+        {session.invalidate();%><meta http-equiv="refresh" content="0; url=index.jsp" /><%}else{%>
+        <a href="#" class="large" id="NavTop" title="Click to go to top"><span class="glyphicon  glyphicon-chevron-up"></span></a>
+        <h2 class="Atitle">Administrator Page</h2>
+        <hr>
+        <!-- Static navbar -->
+        <br>
+        <div class="col-sm-4">
+            <div class="navbar navbar-default navbar-left">
+                <div class="navbar-header">
+                    <h4>Control Panel</h4>
+                </div>
+                <form action="AdminRedirectionServlet" method="post">
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <hr class="seperator1">
+                            <li><input type="submit" id="navbutton" class="btn btn-primary" name="home" value="Home"/></li>
+                            <li><input type="submit" id="navbutton" class="btn btn-primary" name="pendingusr" value="Users Pending"/></li>
+                            <li><input type="submit" id="navbutton" class="btn btn-primary" name="over" value="Users Overview"/></li>
+                            <li><input type="submit" id="navbutton" class="btn btn-primary" name="enl" value="Enlistment Algorithm"/></li>
+
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <form action="LogoutServlet" method="post">
+            <input type="submit" id="logoutButton" class="btn btn-danger btn-lg" name="logout" value="logout"/>
+        </form>
+        <%if (session.getAttribute("Buyer").equals(true) || session.getAttribute("Tenant").equals(true)
+                    || session.getAttribute("Seller").equals(true) || session.getAttribute("Visitor").equals(true)
+                    || session.getAttribute("Seller").equals(true))
+            {%>
+        <form action="AdminRedirectionServlet" method="post">
+            <input type="submit" id="navbutton1" onclick="return confirm('In order to access administrative pages you must re-loggin')" class="btn btn-success btn-lg" name="Normal_User" value="Continue as normal User"/>
+        </form>
+        <%}%>
+        <!-- include javascript, jQuery FIRST -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <%}%>
+    </body>
+</html>

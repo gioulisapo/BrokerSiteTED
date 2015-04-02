@@ -1,0 +1,12 @@
+body{
+ 	background: url("../images/2048.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .loginContainer
+ {
+ 	margin-left: 550px;
+ 	margin-right: -360px;
+ }
